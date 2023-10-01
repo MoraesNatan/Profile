@@ -1,5 +1,6 @@
 body {
     background-color: rgb(203, 194, 194);
+   
 }
 
 .nome {
@@ -108,11 +109,17 @@ p {
     
 }
 .caixa {
-    width: 100%;
+    width: 1158px;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    
+    
 }
 .main-menu {
-    width: 100%;
+    width: 1158px;
     height: 20%;
     background:linear-gradient(rgb(33, 90, 128) , rgb(79, 129, 180));
     
@@ -133,3 +140,59 @@ p {
     color: #eae4e4;
 }
 
+.num1 {   
+    width: 370px;
+    height: 500px;
+    display: grid;
+    align-items: end;
+    border-radius: 10%;
+    
+}
+
+.num2 {
+    width: 370px;
+    height: 500px;
+    display: grid;
+    align-items: end;
+   
+}
+
+   
+
+.linha1 {   
+    width: 370px;
+    height: 80px;
+    display: flex;
+    
+   
+}
+
+.linha2 {    
+    width: 370px;
+    height: 80px;
+   
+}
+.h4 {
+    font-size: 20px;
+}
+.linha1 h4:hover {
+    transition: all 1s;
+    font-size: 30px;
+    color: #d21010;
+    cursor: pointer;
+}
+.linha2 h4:hover {
+    transition: all 1s;
+    font-size: 30px;
+    color: #d21010;
+    cursor: pointer;
+}
+.carousel-inner img:hover {
+    transform: scale(1.1);
+}
+
+.exp {
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+}
