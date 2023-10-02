@@ -191,8 +191,36 @@ p {
     transform: scale(1.1);
 }
 
-.exp {
-    border: 3px solid black;
-    height: 100px;
-    width: 100px;
+.exp {    
+    height: 150px;
+    width: 100%;
+}
+
+.exp p {
+    font-size: 50px;
+    font-family: fantasy;
+    padding-top: 50px;
+    padding-left: 18px;
+    
+}
+.exp p:hover {
+    cursor: pointer;
+} 
+.col-sm-8 {
+    font-size: 30px;
+    padding-right: 375px;
+    display: flex;
+}
+.coluna {
+    padding-top: 30px;    
+    font-size: 20px;
+    color: rgb(72, 72, 157);
+    font-weight: 700;
+    display: flex;
+}
+
+.camp {     
+    height: 150px;
+    width: 60%; 
+    padding-top:20px ;
 }
