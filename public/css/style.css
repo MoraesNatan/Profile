@@ -163,6 +163,7 @@ p {
     width: 370px;
     height: 80px;
     display: flex;
+    font-family:sans-serif;
     
    
 }
@@ -170,21 +171,23 @@ p {
 .linha2 {    
     width: 370px;
     height: 80px;
+    font-family:sans-serif;
    
 }
 .h4 {
     font-size: 20px;
+    
 }
 .linha1 h4:hover {
     transition: all 1s;
     font-size: 30px;
-    color: #d21010;
+    color: #4b1e1e;
     cursor: pointer;
 }
 .linha2 h4:hover {
     transition: all 1s;
     font-size: 30px;
-    color: #d21010;
+    color: #4b1e1e;
     cursor: pointer;
 }
 .carousel-inner img:hover {
